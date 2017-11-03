@@ -35,7 +35,7 @@ sourceSets {
         }
     }
 
-// dependencies to run on tomcat, are mandatory for tomcat plugin
+// dependencies to run on tomcat, are mandatory for tomcat plugin.
 dependencies {
     def tomcatVersion = '7.0.57'
     tomcat "org.apache.tomcat.embed:tomcat-embed-core:${tomcatVersion}",
